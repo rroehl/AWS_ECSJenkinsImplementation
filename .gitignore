@@ -1,0 +1,14 @@
+*.tfstate
+*.tfstate.backup
+*.pem
+*.hcl
+*.zip
+*.jar
+*.tar.gz
+*.pwd
+.terraform
+.DS_Store
+*.backup
+*.com
+*.code-workspace
+notes.txt
