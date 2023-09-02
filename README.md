@@ -48,7 +48,7 @@ ECS Fargate:  {USD for CPU} + {USD for RAM} + {USD for ephemeral storage} = {Tot
 
 EC2 Full  m5.xlarge cost
 Monthly charge for on demand EC2 instance
-3 instances x 0.192 USD On Demand hourly cost x 730 hours in a month = 420.480000 USD
+3 instances x 0.192 USD On Demand hourly cost x 730 hours in a month = 420.48 USD
 
 EC2 Partial Daily m5.xlarge cost
 3 instances x  hours_per_day_instance runs x 0.192 USD On Demand hourly cost x 730 hours in a month / 24 hours per day = monthly costs
