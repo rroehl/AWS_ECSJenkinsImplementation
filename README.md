@@ -4,17 +4,17 @@ The goal is to create a container of the Jenkins master and linux agent in the A
 
 The project is divided into four phases and each phase has to be completed in order.
 
-[Phase 1: Configure the Base Infrastructure](#phase-1-configure-the-base-infrastructure) - The fundamental infrastructure is created.
+[Phase 1: Configure the Base Infrastructure](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_1_ECSFargateJenkins/) - The fundamental infrastructure is created.
 
-[Phase 2: Configure the Application Infrastructure](https://github.com/rroehl/ECSJenkinsInfrastructure/tree/master/) - The application specific infrastructure is configured.
+[Phase 2: Configure the Application Infrastructure](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_2_ECSJenkinsInfrastructure/) - The application specific infrastructure is configured.
 
-[Phase 3: Create the Jenkins Service and Agent Container Images](https://github.com/rroehl/ECSDockerJenkinsContainer/tree/master/) - The Jenkins service and agent Docker images are created and uploaded into AWS ECR.
+[Phase 3: Create the Jenkins Service and Agent Container Images](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_3_ECSDockerJenkinsContainer/) - The Jenkins service and agent Docker images are created and uploaded into AWS ECR.
 
-[Phase 4: Create the Jenkins Service ECS Tasks on Fargate](https://github.com/rroehl/ECSCreateJenkinsContainer/tree/master/) - The Terraform scripts will start the Jenkins Service as an ECS Task.
+[Phase 4: Create the Jenkins Service ECS Tasks on Fargate](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_4_ECSCreateJenkinsContainer/) - The Terraform scripts will start the Jenkins Service as an ECS Task.
 
 ### Last Steps
 
-Once all the phases are completed, the Jenkins can be access via the AWS Load Balancer DNS address over HTTP. The Jenkins ECS plugin is configured based on the parameters passed to itvia Terraform. To test it, create a job called Test and select label for "Restrict where this project can be run" as the "Linux_Agent". It will state its not created which is correct. For the Build steps used "Execute Shell" and you can use these steps:
+Once all the phases are completed, the Jenkins can be access via the AWS Load Balancer DNS address over HTTP. The Jenkins ECS plugin is configured based on the parameters passed to it via Terraform. To test it, create a job called Test and select label for "Restrict where this project can be run" as the "Linux_Agent". It will state its not created which is correct. For the Build steps used "Execute Shell" and you can use these steps:
 echo "Hello World"
 date >> date.txt
 cat date.txt

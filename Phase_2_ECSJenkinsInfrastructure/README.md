@@ -26,9 +26,9 @@ terraform apply  -auto-approve
 To destroy the Resources in this phase:
 terraform destroy  -auto-approve
 
-[Next... Phase 3: Create the Jenkins Service and Agent Container Images](https://github.com/rroehl/ECSDockerJenkinsContainer/tree/master/) 
+[Next... Phase 3: Create the Jenkins Service and Agent Container Images](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_3_ECSDockerJenkinsContainer/) 
 
-[Return to the parent doc...](https://github.com/rroehl/ECSFargateJenkins/tree/master/)
+[Return to the parent doc...](https://github.com/rroehl/AWS_ECSJenkinsImplementation/)
 
 <!-- BEGIN_TF_DOCS -->
 

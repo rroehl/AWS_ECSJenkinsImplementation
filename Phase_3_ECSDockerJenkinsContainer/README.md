@@ -29,7 +29,7 @@ The Jenkins YAML file is created from the Terraform code and is used by the conf
 
 ![](docs/assets/20230130_153424_diagram_A.drawio.svg)
 
-The Jenkins agent images is configured in the same manner. The docker.tf will subsititute the variables into the Dockerfile template and create the docker file. The remaining process that Terraform performs is the same as the Jenkins Service creation.
+The Jenkins agent images is configured in the same manner. The docker.tf will substitute the variables into the Dockerfile template and create the docker file. The remaining process that Terraform performs is the same as the Jenkins Service creation.
 
 The Dockerfile will:
 
@@ -59,9 +59,9 @@ terraform apply  -auto-approve
 To destroy the Resources in this phase:
 terraform destroy  -auto-approve
 
-[Next... Phase 4: Create the Jenkins Service ECS Tasks on Fargate](https://github.com/rroehl/ECSCreateJenkinsContainer/tree/master/) 
+[Next... Phase 4: Create the Jenkins Service ECS Tasks on Fargate](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_4_ECSCreateJenkinsContainer/) 
 
-[Return to the parent doc...](https://github.com/rroehl/ECSFargateJenkins/tree/master/)
+[Return to the parent doc...](https://github.com/rroehl/AWS_ECSJenkinsImplementation/)
 
 <!-- BEGIN_TF_DOCS -->
 

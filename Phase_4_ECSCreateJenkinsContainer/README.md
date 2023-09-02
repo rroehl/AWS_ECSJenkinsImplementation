@@ -18,7 +18,7 @@ terraform apply  -auto-approve
 To destroy the Resources in this phase:
 terraform destroy  -auto-approve
 
-[Return to the parent doc...](https://github.com/rroehl/ECSFargateJenkins/tree/master/)
+[Return to the parent doc...](https://github.com/rroehl/AWS_ECSJenkinsImplementation/)
 
 ![](docs/assets/20230131_143826_diagramB.drawio.svg)
 

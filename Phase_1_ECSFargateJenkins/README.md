@@ -28,7 +28,10 @@ terraform apply  -auto-approve
 To destroy the Resources in this phase:
 terraform destroy  -auto-approve
 
-[Next... Phase 2: Configure the Application Infrastructure](https://github.com/rroehl/ECSJenkinsInfrastructure/tree/master/)
+[Next... Phase 2: Configure the Application Infrastructure](https://github.com/rroehl/AWS_ECSJenkinsImplementation/tree/main/Phase_2_ECSJenkinsInfrastructure/)
+
+[Return to the parent doc...](https://github.com/rroehl/AWS_ECSJenkinsImplementation/)
+
 <!-- BEGIN_TF_DOCS -->
 
 ## Requirements
